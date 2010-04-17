@@ -1,4 +1,5 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <ProductVersion>9.0.30729</ProductVersion>
@@ -26,7 +27,7 @@
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
+    <OldToolsVersion>3.5</OldToolsVersion>
     <PublishUrl>http://localhost/Castle.Facilities.Logging.Tests/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
@@ -95,10 +96,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\net-3.5\Castle.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Castle.DynamicProxy2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\net-3.5\Castle.DynamicProxy2.dll</HintPath>
-    </Reference>
     <Reference Include="Castle.Services.Logging.log4netIntegration, Version=1.2.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\net-3.5\Castle.Services.Logging.log4netIntegration.dll</HintPath>
@@ -131,14 +128,13 @@
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
-    <ProjectReference Include="..\Castle.Facilities.Logging\Castle.Facilities.Logging-vs2008.csproj">
-      <Name>Castle.Facilities.Logging-vs2008</Name>
+    <ProjectReference Include="..\Castle.Facilities.Logging\Castle.Facilities.Logging-vs2010.csproj">
       <Project>{32D54D33-206F-44EE-8329-8480ABE049B1}</Project>
-      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+      <Name>Castle.Facilities.Logging-vs2010</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Castle.Windsor\Castle.Windsor-vs2008.csproj">
+    <ProjectReference Include="..\Castle.Windsor\Castle.Windsor-vs2010.csproj">
       <Project>{60EFCB9B-E3FF-46A5-A2D2-D9F0EF75D5FE}</Project>
-      <Name>Castle.Windsor-vs2008</Name>
+      <Name>Castle.Windsor-vs2010</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
