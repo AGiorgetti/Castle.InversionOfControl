@@ -24,6 +24,10 @@ namespace Castle.MicroKernel.SubSystems.Conversion
 
 	using Castle.Core.Configuration;
 
+#if SILVERLIGHT
+    using Castle.Silverlight;
+#endif
+
 	/// <summary>
 	/// Convert a type name to a Type instance.
 	/// </summary>

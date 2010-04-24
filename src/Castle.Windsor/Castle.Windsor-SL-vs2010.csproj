@@ -284,12 +284,15 @@
     <Compile Include="MicroKernel\SubSystems\Conversion\IKernelDependentConverter.cs" />
     <Compile Include="MicroKernel\SubSystems\Conversion\ITypeConverter.cs" />
     <Compile Include="MicroKernel\SubSystems\Conversion\ITypeConverterContext.cs" />
+    <Compile Include="MicroKernel\SubSystems\Conversion\ITypeNameParser.cs" />
     <Compile Include="MicroKernel\SubSystems\Conversion\ListConverter.cs" />
     <Compile Include="MicroKernel\SubSystems\Conversion\NullableConverter.cs" />
     <Compile Include="MicroKernel\SubSystems\Conversion\PrimitiveConverter.cs" />
     <Compile Include="MicroKernel\SubSystems\Conversion\TimeSpanConverter.cs" />
     <Compile Include="MicroKernel\SubSystems\Conversion\TypeDescriptor.cs" />
+    <Compile Include="MicroKernel\SubSystems\Conversion\TypeName.cs" />
     <Compile Include="MicroKernel\SubSystems\Conversion\TypeNameConverter.cs" />
+    <Compile Include="MicroKernel\SubSystems\Conversion\TypeNameParser.cs" />
     <Compile Include="MicroKernel\SubSystems\Naming\BinaryTreeComponentName.cs" />
     <Compile Include="MicroKernel\SubSystems\Naming\ComponentName.cs" />
     <Compile Include="MicroKernel\SubSystems\Naming\DefaultNamingSubSystem.cs" />
@@ -301,6 +304,7 @@
     <Compile Include="MicroKernel\Util\GenericTypeNameProvider.cs" />
     <Compile Include="MicroKernel\Util\ReferenceComparer.cs" />
     <Compile Include="MicroKernel\Util\ReferenceExpressionUtil.cs" />
+    <Compile Include="Silverlight\Extensions.cs" />
     <Compile Include="Windsor\Adapters\ComponentModel\ContainerAdapter.cs" />
     <Compile Include="Windsor\Adapters\ComponentModel\ContainerAdapterSite.cs" />
     <Compile Include="Windsor\Adapters\ComponentModel\ContainerWrapper.cs" />

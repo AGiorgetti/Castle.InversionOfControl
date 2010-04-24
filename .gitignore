@@ -12,3 +12,13 @@ _ReSharper*
 *.suo
 *.cache
 * Thumbs.db
+src/Castle.Windsor/Bin/Debug/Castle.Core.dll
+src/Castle.Windsor/Bin/Debug/Castle.Core.pdb
+src/Castle.Windsor/Bin/Debug/Castle.Core.xml
+src/Castle.Windsor/Bin/Debug/Castle.Windsor.dll
+src/Castle.Windsor/Bin/Debug/Castle.Windsor.pdb
+src/Castle.Windsor/Bin/Release/Castle.Core.dll
+src/Castle.Windsor/Bin/Release/Castle.Core.pdb
+src/Castle.Windsor/Bin/Debug/Castle.Windsor.XML
+src/Castle.Windsor/Bin/Release/Castle.Windsor.dll
+src/Castle.Windsor/Bin/Release/Castle.Windsor.pdb
